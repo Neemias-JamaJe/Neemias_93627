@@ -1,34 +1,108 @@
 nav{
-
-    background-color: rgb(255, 238, 0);
-    border-bottom: 4px solid rebeccapurple;
+    background-color: rgb(255, 208, 0);
+    padding-top: 20px;
+    border-bottom: 2px solid rgb(255, 135, 54);
 }
 ul{
 
     display: flex;
-    padding-left: 730px;
+    padding-left: 530px;
+    padding-bottom: 20px;
 }
 
 li{
 
     list-style: none;
-    padding: 20px;
+    padding-left: 100px;
 }
 
 a{
 
     text-decoration: none;
-    color: black;
-    font-weight: normal;
-    font-size: 12pt;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-img{
-
+.logo{
+    padding-left: 830px;
     width: 200px;
-    padding-left: 820px; 
-    padding-top: 20px
+    height: 200px;
+}
 
-    
+.fundo{
+    margin-top: -0px;
+    width: 1880px;
+    height: 800px;
+} 
+
+.area{
+    position: relative;
+}
+
+.texto {
+  position: absolute;
+  top: 40%; 
+  left: 37%;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px; 
+  font-size: 46px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 2px 3px gray;
+}
+
+.texto2 {
+  position: absolute;
+  top: 93%; 
+  left: 43%; 
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+  background-color: rgba(0, 0, 0, 0.281);
+  padding: 10px;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    color: orange;
+    font-weight: bold;
+    padding-left: 43%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto3{
+    height: 20px;
+    padding-bottom: 5%;
+    padding-left: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao{
+    background-color: rgb(255, 153, 0);
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    margin-right: 830px;
+    margin-left: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 166, 0);
+    text-align: center;
+}
+
+.botao:hover{
+    background-color: rgb(255, 176, 57);
+}
+
+.final{
+    background-color: orange;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-top: 2px solid orangered;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
 }
