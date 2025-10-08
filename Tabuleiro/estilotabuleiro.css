@@ -1,0 +1,21 @@
+.tabuleiro {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); /*esse grid-template uma coluna, o repeat "multiplica" os elementos nela*/
+    grid-template-rows: repeat(8, 1fr);
+    width: 600px;
+    height: 600px;
+    border: 5px solid black;
+}
+
+.casa {
+    width: 100%;
+    height: 100%;
+}
+
+.bege {
+    background-color: rgb(220, 245, 226);
+}
+
+.marrom {
+    background-color: brown;
+}
