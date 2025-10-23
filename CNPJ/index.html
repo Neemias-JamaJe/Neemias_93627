@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta CNPJ</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link para o CSS -->
+</head>
+<body>
+    <div class="container">
+        <h2>Consulta de CNPJ</h2>
+        <form id="cepForm">
+            <label for="cep">CNPJ:</label>
+            <input type="text" id="cep" name="cep" maxlength="8" required>
+            
+            <button type="button" onclick="consultarCep()">Consultar</button> <!-- Botão que chama a função JS -->
+        </form>
+
+        <!-- Campos para exibir os resultados -->
+        <div id="resultado">
+            <p><strong>País:</strong> <span id="rua"></span></p>
+            <p><strong>Endereço:</strong> <span id="bairro"></span></p>
+            <p><strong>Nome Fantasia:</strong> <span id="cidade"></span></p>
+            <p><strong>Situação Cadastral:</strong> <span id="estado"></span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Link para o JavaScript -->
+</body>
+</html>
