@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    border-radius: 12px;
+}
+
+table {
+    border-radius: 10px;
+    overflow: hidden;
+}
